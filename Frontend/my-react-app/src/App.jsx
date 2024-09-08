@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import { Slider } from '@mui/base/Slider';
 import './App.css'
+import ResponsiveAppBar from './components/Appbar'
+import CssBaseline from '@mui/material/CssBaseline';
+import Home from "./components/Home";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,8 +10,11 @@ function App() {
   return (
     <>
       <div>
-        Hi welcome to my Portfolio Website
-        <Slider></Slider>
+      <ResponsiveAppBar/>
+      <Home/>
+        
+        
+
       </div>
     </>
   )
