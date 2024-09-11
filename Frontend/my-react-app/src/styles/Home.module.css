@@ -1,9 +1,53 @@
-h1{
-  text-align: center;
-  }
-
-.flex-container{
+/* Home.css */
+.container {
+  width: 800px; /* Small box width */
+  padding: 20px;
+  margin: 50px auto; /* Centers the container horizontally */
+  border: 1px solid #ddd; /* Optional border for visibility */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional shadow for style */
+  position: relative; /* So the image can be positioned relative to this */
   display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+  flex-direction: column;
+  /* align-items: flex-start; Align h2 and p tags to the left */
+}
+
+.header {
+  text-align: center;
+  width: 100%; /* Ensures h1 spans the width of the container */
+  margin-bottom: 10px;
+}
+
+.picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  object-fit: cover;
+  position: absolute; /* Position relative to the container */
+  top: 10px;
+  right: 10px; /* Aligns the picture to the top-right corner */
+}
+
+.picture:hover {
+  transform: scale(1.1);
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+a {
+  display: block; /* Ensures each link is on its own line */
+  margin-bottom: 5px;
+}
+
+h3 {
+  margin-top: 20px; /* Space between links and next section */
 }
