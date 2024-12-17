@@ -12,8 +12,8 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 
-const pages = ['Home', 'About', 'Projects',"Contact"];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+const pages = ['Home', 'Projects', 'About',"Contact"];
+
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -23,6 +23,7 @@ function ResponsiveAppBar() {
     setAnchorElNav(event.currentTarget);
   };
   const handleCloseNavMenu = () => {
+    console.log();
     setAnchorElNav(null);
   };
 
@@ -82,6 +83,7 @@ function ResponsiveAppBar() {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
+
                   <Typography sx={{ textAlign: 'center' }}>{page}</Typography>
                 </MenuItem>
               ))}
@@ -106,18 +108,21 @@ function ResponsiveAppBar() {
             Joshua Conrad
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            {pages.map((page) => (
-              <Button
-                key={page}
-                onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
-              >
-                {page}
-              </Button>
-            ))}
+          {pages.map((page) => (
+  <Button
+    key={page}
+    component="a"
+    href={`#${page.toLowerCase()}`} // Assuming you want to navigate to sections with IDs matching the page names
+    onClick={handleCloseNavMenu}
+    sx={{ my: 2, color: 'white', display: 'block' }}
+  >
+    {page}
+  </Button>
+))}
+
           </Box>
           <Box sx={{ flexGrow: 0 }}>
-            
+
               <IconButton sx={{ p: 0 }}>
                 <Avatar alt="Remy Sharp" src="../assets/Joshua HeadShot.jpg" />
               </IconButton>

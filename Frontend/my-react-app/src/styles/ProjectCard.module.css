@@ -1,0 +1,13 @@
+.container {
+    width: 1300px; /* Small box width */
+    padding: 20px;
+    margin: 50px auto; /* Centers the container horizontally */
+    border: 1px solid #ddd; /* Optional border for visibility */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional shadow for style */
+    position: relative; /* So the image can be positioned relative to this */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align h2 and p tags to the left */
+    
+}

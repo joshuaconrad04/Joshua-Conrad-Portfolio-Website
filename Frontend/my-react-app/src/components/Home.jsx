@@ -1,19 +1,35 @@
 import * as React from 'react';
 import styles from "../styles/Home.module.css";
+import ProjectCard from './ProjectCard';
+import HeaderCard from './HeaderCard';
 
 function Home(){
   return (
+    <div>
+  <section id= "home">
+  <HeaderCard/> 
+  </section>
+  <br></br>
 
-    <div className={styles.container}>
-    <h1 className={styles.header}>Hi welcome to my Portfolio Website</h1>
-    <h2>Computer Science Major & Math-Minor</h2>
-    <p>Specializing in FullStack Development w/ React for the front-end and Node JS as well as Springboot for the backend</p>
-    <img className={styles.picture} src="/Joshua_Head_Shot.jpg" alt="Picture of Me" />
-    <a href="https://github.com/joshuaconrad04">GitHub</a>
-    <a href="https://www.linkedin.com/in/joshua-conrad-3a7725219/">LinkedIn</a>
+  <section id= "About"> 
 
-    <h3>Technologies and Skills</h3>
+</section>
 
+
+  <section id= "Projects"> 
+  <ProjectCard
+  title="Project 1"
+  description="Description of Project 1"
+  image1="/IMG_0111.jpg"  
+  image2="/IMG_0135.jpg"  
+  image3="/IMG_0136.JPG"
+  />
+
+  </section>
+
+
+  <section id= "Contact"> 
+  </section>
   </div>
   )
 }
