@@ -1,6 +1,6 @@
 
 .container {
-    width: 800px; /* Small box width */
+    width: 900px; /* Small box width */
     padding: 20px;
     margin: 50px auto; /* Centers the container horizontally */
     border: 1px solid #ddd; /* Optional border for visibility */
@@ -19,14 +19,14 @@
   }
   
   .picture {
-    width: 150px;
-    height: 150px;
+    width: 110px;
+    height: 110px;
     border-radius: 50%;
     overflow: hidden;
     transition: transform 0.3s ease;
     object-fit: cover;
     position: absolute; /* Position relative to the container */
-    top: 10px;
+    top: 25px;
     right: 10px; /* Aligns the picture to the top-right corner */
     animation: float 4s ease-in-out infinite;
   }

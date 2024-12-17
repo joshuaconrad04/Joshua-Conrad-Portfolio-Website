@@ -11,17 +11,17 @@ const ProjectCard = (props) => {
       {/* Bootstrap Carousel */}
       <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
-          <div className="carousel-item active" data-bs-interval="10000">
+          <div className="carousel-item active" data-bs-interval="5000">
             <img src={props.image1} className="d-block w-100" alt="Project 1" />
           </div>
-          <div className="carousel-item" data-bs-interval="2000">
+          <div className="carousel-item" data-bs-interval="5000">
             <img src={props.image2} className="d-block w-100" alt="Project 2" />
           </div>
-          <div className="carousel-item">
+          <div className="carousel-item" data-bs-interval="5000">
             <img src={props.image3} className="d-block w-100" alt="Project 3" />
           </div>
         </div>
-        <button
+        {/* <button
           className="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleInterval"
@@ -38,7 +38,7 @@ const ProjectCard = (props) => {
         >
           <span className="carousel-control-next-icon" aria-hidden="true"></span>
           <span className="visually-hidden">Next</span>
-        </button>
+        </button> */}
       </div>
     </div>
   );
