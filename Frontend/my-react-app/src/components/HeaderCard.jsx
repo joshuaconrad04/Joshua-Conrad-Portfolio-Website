@@ -14,13 +14,13 @@ const HeaderCard = () => {
     <img className={styles.picture} src="/Learning.jpg" alt="Picture of Me" />
 
     <div className="icon-container">
-      <Tooltip title="Click Me!">
+      <Tooltip title="Click Me!" placement='top'>
     <a href="https://github.com/joshuaconrad04" target="_blank" rel="noopener noreferrer">
         <GitHubIcon  />
     </a>
     </Tooltip>
 
-    <Tooltip title="Click Me!">
+    <Tooltip title="Click Me!" placement='top'>
     <a href="https://www.linkedin.com/in/joshua-conrad-3a7725219/" target="_blank" rel="noopener noreferrer">
       <LinkedInIcon />
     </a>
@@ -38,7 +38,7 @@ React, HTML, CSS, Bootstrap, Tailwind and Javascript for the front-end.
 SQL and Relational Databases such as Postgres and MySQL 
 </li>
 <li>
-Ability to create and use API’s as well of knowledge of Functional and Object Oriented Programming Paradigms
+Ability to create and use API’s as well of knowledge of both Functional and Object Oriented Programming Paradigms
 </li>
     </ul>
   </div>

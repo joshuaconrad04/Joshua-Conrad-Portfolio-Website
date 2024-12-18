@@ -123,9 +123,11 @@ function ResponsiveAppBar() {
           </Box>
           <Box sx={{ flexGrow: 0 }}>
 
-              <IconButton sx={{ p: 0 }}>
+
+              {/* If I ever make my own Icon i can come and display it here */}
+              {/* <IconButton sx={{ p: 0 }}>
                 <Avatar alt="Remy Sharp" src="../assets/Joshua HeadShot.jpg" />
-              </IconButton>
+              </IconButton> */}
             
             <Menu
               sx={{ mt: '45px' }}

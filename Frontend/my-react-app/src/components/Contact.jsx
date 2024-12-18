@@ -35,7 +35,7 @@ const ContactForm = () => {
     <div className={styles.container}>
     <section id="contact-me">
       <h2>Contact Me</h2>
-      <p>Feel free to reach out! Just leave your name, email, and a message if you are interested details for services I offer as they pertain to website development, weather for a small business or a larger one, reach out!</p>
+      <p>Feel free to reach out! Just leave your name, email, and a message if you are interested details for services I offer as they pertain to website development, whether for a small business or a larger one, reach out!</p>
 
       <form ref={form} onSubmit={sendEmail}>
         <div>
@@ -55,7 +55,16 @@ const ContactForm = () => {
 
         <button type="submit">Send Message</button>
       </form>
+
+
+
     </section>
+    <nav>
+  <a href="#home">Home </a> 
+  <a href="#projects">Projects </a>
+  <a href="#about">About </a>
+  <a href="#contact-me">Contact </a>
+</nav>
     </div>
   );
 };

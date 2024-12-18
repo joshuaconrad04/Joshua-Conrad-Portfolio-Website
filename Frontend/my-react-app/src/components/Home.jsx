@@ -13,7 +13,6 @@ function Home(){
   <section id= "home">
   <HeaderCard/> 
   </section>
-  <br></br>
 
     {/* About Section */}
   <section id= "about"> 
@@ -29,20 +28,6 @@ function Home(){
   <h4>All code in GitHub that is linked above</h4>
 </div>
 
-  <ProjectCard
-  title="Ant Colony Simulation"
-  description=" ● Engineered a dynamic ant-colony simulation using Java and Java Swing, successfully applying MVC
- and Object-Oriented principles; project enhanced understanding of algorithm efficiency and achieved a
- speed increase of 150% through the use of differing data structures and algorithms.
- ● The colony created consist of a queen and her brood, which will have workers
- ● to gather food and scout the terrain surrounding the colony and soldiers to protect the colony.
- from enemies(Bala ants). The colony will start off with only the queen and a few workers and soldiers.
- ● Overtime the colony will expand to function like a real ant colony, to a limited extent.
- ● Colony comes with different buttons and modes which influence the colony differently"
-  image1="/antsimpic1.jpg"  
-  image2="/antsimpic2.jpg"  
-  image3="/antsimpic3.jpg"
-  />
 <ProjectCard 
   title="Football/Soccer Data Searcher"
   description= "• Launched a fully functional web application that streamlined soccer data access, currently utilized by over
@@ -66,6 +51,20 @@ image1="/WebsiteScreenShots/MovieReviewPic1.png"
 image2="/WebsiteScreenShots/MovieReviewPic2.png"  
 image3="/WebsiteScreenShots/MovieReviewPic3.png"
 />
+<ProjectCard
+  title="Ant Colony Simulation"
+  description=" ● Engineered a dynamic ant-colony simulation using Java and Java Swing, successfully applying MVC
+ and Object-Oriented principles; project enhanced understanding of algorithm efficiency and achieved a
+ speed increase of 150% through the use of differing data structures and algorithms.
+ ● The colony created consist of a queen and her brood, which will have workers
+ ● to gather food and scout the terrain surrounding the colony and soldiers to protect the colony.
+ from enemies(Bala ants). The colony will start off with only the queen and a few workers and soldiers.
+ ● Overtime the colony will expand to function like a real ant colony, to a limited extent.
+ ● Colony comes with different buttons and modes which influence the colony differently"
+  image1="/antsimpic1.jpg"  
+  image2="/antsimpic2.jpg"  
+  image3="/antsimpic3.jpg"
+  />
 </section>
 
 
