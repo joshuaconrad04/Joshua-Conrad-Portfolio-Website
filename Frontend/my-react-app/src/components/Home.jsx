@@ -43,13 +43,13 @@ image3="/WebsiteScreenShots/FootballSearcherPics4.png"
 />
 <ProjectCard 
   title="Movie Review Website"
-  description="● Web App which allows multiple users to write, edit and delete show/movie reviews with ease.
-● Has functionality to sort written reviews by rating, date added and by user that wrote the review.
-● Built using Node and Express JS as a backend along with the front end written using React, Tailwind and
-Bootstrap."
-image1="/WebsiteScreenShots/MovieReviewPic1.png"  
-image2="/WebsiteScreenShots/MovieReviewPic2.png"  
-image3="/WebsiteScreenShots/MovieReviewPic3.png"
+  description="● Web App which allows multiple users to write and delete show/movie reviews with ease.
+● Has a login system for users to sign up and log in using session management, ability for logged in users to have extra perks such as a profile, picture and the 
+ability to write and edit reviews as well as keep a list of movies they'd like to watch and filter their movies by things such as genre or date created.
+● Built using Node and Express JS, password hashing for protecting user data in a MySQL database for the backend. Frontend consists of a React front end with a custom CSS files for styling."
+image1="/WebsiteScreenShots/NewMovieReview.png"  
+image2="/WebsiteScreenShots/NewMovieReview2.png"  
+image3="/WebsiteScreenShots/NewMovieReview3.png"
 />
 <ProjectCard
   title="Ant Colony Simulation"

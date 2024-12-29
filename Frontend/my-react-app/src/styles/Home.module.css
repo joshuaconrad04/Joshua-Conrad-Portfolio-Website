@@ -15,6 +15,21 @@ html{
     scroll-behavior: smooth;
 }
 
-body{
-    background-color: black;
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
 }
