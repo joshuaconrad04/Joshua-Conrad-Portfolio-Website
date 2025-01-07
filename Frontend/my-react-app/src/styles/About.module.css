@@ -10,6 +10,11 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start; /* Align h2 and p tags to the left */
+    
+}
+
+.container p{
+    color:black;
 }
 
 @media (min-width: 576px) {
