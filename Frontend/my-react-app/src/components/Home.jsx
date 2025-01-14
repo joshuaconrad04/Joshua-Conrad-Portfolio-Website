@@ -30,7 +30,7 @@ function Home(){
 
 <ProjectCard 
   title="Football/Soccer Data Searcher"
-  description= "• Launched a fully functional web application that streamlined soccer data access, currently utilized by over
+  description= "• Launched a fully functional web application that streamlined soccer data access, currently utilized by over_
 members of the UIS soccer Team; provides a centralized platform for users.
 • Engineered a comprehensive soccer data lookup tool that consolidated over 50,000 historical records,
 empowering users to explore player statistics and team performance, significantly enhancing the research.

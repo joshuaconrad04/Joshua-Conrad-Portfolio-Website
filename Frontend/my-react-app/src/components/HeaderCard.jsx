@@ -4,8 +4,15 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { Tooltip } from '@mui/material';
 import styles from "../styles/HeaderCard.module.css";
 
+
+
+
 const HeaderCard = () => {
+
+  
+
   return (
+
     <div className={styles.container}>
     <h1 className={styles.header}>Hi welcome to my Portfolio Website</h1>
     <br></br>
@@ -14,13 +21,13 @@ const HeaderCard = () => {
     <img className={styles.picture} src="/Learning.jpg" alt="Picture of Me" />
 
     <div className="icon-container">
-      <Tooltip title="Click Me!" placement='top'>
+      <Tooltip title="Click Me to view my Github!" placement='top'>
     <a href="https://github.com/joshuaconrad04" target="_blank" rel="noopener noreferrer">
         <GitHubIcon  />
     </a>
     </Tooltip>
 
-    <Tooltip title="Click Me!" placement='top'>
+    <Tooltip title="Click Me to view my LinkedIn!" placement='top'>
     <a href="https://www.linkedin.com/in/joshua-conrad-3a7725219/" target="_blank" rel="noopener noreferrer">
       <LinkedInIcon />
     </a>
