@@ -20,13 +20,13 @@ function About() {
           <p>
             I have a strong foundation in{' '}
             <strong>Full-Stack Development</strong> with experience building dynamic web 
-            applications. My toolkit includes <strong>Wordpress, Java, Python, Javascript, React, Node.js, Express.js, WorkPress, Postgres and MySQL</strong>, 
+            applications. My toolkit includes <strong>Wordpress, Java, Python, Javascript, React, Node.js, Express.js, Postgres as well as MySQL</strong>, 
             and more.
           </p>
           <p>
             I've honed these skills through various internships at startups and working on personal projects and{' '}
             <strong>I'm now offering services to clients as a freelance developer
-            and Tutor.</strong>
+            and Tutor where I have a wealth of experience.</strong>
           </p>
           <p>
             <strong>
